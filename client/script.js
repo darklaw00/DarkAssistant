@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch date from server -> bot's
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://dark-assistant.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
